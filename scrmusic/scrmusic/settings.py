@@ -14,7 +14,7 @@ SPIDER_MODULES = ['scrmusic.spiders']
 NEWSPIDER_MODULE = 'scrmusic.spiders'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 #禁止cookies,防止被ban
-COOKIES_ENABLED = True
+#COOKIES_ENABLED = True
 ITEM_PIPELINES = {
     'scrmusic.pipelines.ScrmusicPipeline':300
 }
